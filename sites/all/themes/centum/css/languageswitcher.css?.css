@@ -1,0 +1,8 @@
+/*block aligh right*/
+.region-languages{float: right;}
+/* language switcher */
+ul.language-switcher-locale-url{list-style:none;display:inline;} 
+ul.language-switcher-locale-url li{display:inline;} 
+ul.language-switcher-locale-url li:after{content:"|";} 
+ul.language-switcher-locale-url li:last-child:after{content:"";}
+ul.language-switcher-locale-url a.active {font-weight: bold;}
